@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<workbook>
+    <worksheet name="Sheet1">
+        <!--<section startRow="0" endRow="0">-->
+            <!--&lt;!&ndash;<mapping cell="B1">department.name</mapping>&ndash;&gt;-->
+            <!--&lt;!&ndash;<mapping cell="A4">department.chief.name</mapping>&ndash;&gt;-->
+            <!--&lt;!&ndash;<mapping cell="B4">department.chief.age</mapping>&ndash;&gt;-->
+            <!--&lt;!&ndash;<mapping cell="D4">department.chief.payment</mapping>&ndash;&gt;-->
+            <!--&lt;!&ndash;<mapping row="3" col="4">department.chief.bonus</mapping>&ndash;&gt;-->
+        <!--</section>-->
+        <loop startRow="1" endRow="1" items="departments" var="department" varType="com.lobin.model.Employee">
+            <section startRow="1" endRow="1">
+                <mapping row="7" col="0">department.name</mapping>
+                <mapping row="7" col="1">department.age</mapping>
+                <mapping row="7" col="3">department.payment</mapping>
+                <mapping row="7" col="4">department.bonus</mapping>
+            </section>
+            <loopbreakcondition>
+                <rowcheck offset="0">
+                    <cellcheck offset="0"></cellcheck>
+                </rowcheck>
+            </loopbreakcondition>
+        </loop>
+    </worksheet>
+</workbook>
