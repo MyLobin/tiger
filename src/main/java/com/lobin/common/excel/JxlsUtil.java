@@ -1,6 +1,5 @@
-package com.lobin;
+package com.lobin.common.excel;
 
-import com.lobin.model.Department;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.jxls.reader.ReaderBuilder;
 import org.jxls.reader.XLSReadStatus;
