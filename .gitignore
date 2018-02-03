@@ -48,3 +48,13 @@ dist/
 nbdist/
 .nb-gradle/
 
+#----temp---#
+.DS_Store
+.gitignore.swp
+classpath:/
+img/
+src/main/resources/jxls/department.xls
+src/main/resources/jxls/department.xlsx
+template.xlsx
+
+
