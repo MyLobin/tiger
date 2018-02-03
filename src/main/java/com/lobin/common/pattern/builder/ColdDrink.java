@@ -1,4 +1,8 @@
 package com.lobin.common.pattern.builder;
 
-public class ColdDrink {
+public abstract class ColdDrink implements Item{
+    @Override
+    public Packing packing() {
+        return new Bottle();
+    }
 }

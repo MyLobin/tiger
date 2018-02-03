@@ -1,4 +1,6 @@
 package com.lobin.common.pattern.adapter;
 
-public class AdvanceMediaPlayer {
+public interface AdvanceMediaPlayer {
+    void playVlc(String name);
+    void playMp3(String name);
 }

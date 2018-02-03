@@ -1,4 +1,5 @@
 package com.lobin.common.pattern.adapter;
 
-public class MediaPlayer {
+public interface MediaPlayer {
+    void play(String type,String name);
 }

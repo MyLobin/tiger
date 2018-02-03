@@ -1,4 +1,5 @@
 package com.lobin.common.pattern.builder;
 
-public class Packing {
+public interface Packing {
+    String pack();
 }
