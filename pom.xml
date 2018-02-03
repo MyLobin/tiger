@@ -19,6 +19,13 @@
         <version>RELEASE</version>
     </parent>
     <dependencies>
+        <!--zookeeper-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.zookeeper</groupId>-->
+            <!--<artifactId>zookeeper</artifactId>-->
+            <!--<version>RELEASE</version>-->
+        <!--</dependency>-->
+        <!--二维码-->
         <dependency>
             <groupId>com.google.zxing</groupId>
             <artifactId>core</artifactId>
@@ -106,6 +113,11 @@
             <groupId>org.jxls</groupId>
             <artifactId>jxls-reader</artifactId>
             <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.5.3-beta</version>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>junit</groupId>-->
